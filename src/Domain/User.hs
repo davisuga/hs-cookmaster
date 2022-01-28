@@ -1,4 +1,4 @@
-module Models.User where
+module Domain.User where
 
 data User = User
   { name :: Int,

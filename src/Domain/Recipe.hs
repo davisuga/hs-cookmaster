@@ -1,7 +1,7 @@
-module Models.Recipe where
+module Domain.Recipe where
 
 data Recipe = Recipe
-  { name :: Int,
+  { name :: String,
     ingredients :: String,
     preparation :: String
   }
