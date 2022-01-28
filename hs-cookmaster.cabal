@@ -27,9 +27,9 @@ library
       Controllers.Common
       Controllers.Recipe
       Controllers.User
+      Domain.Recipe
+      Domain.User
       Lib
-      Models.Recipe
-      Models.User
   other-modules:
       Paths_hs_cookmaster
   hs-source-dirs:

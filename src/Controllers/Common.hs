@@ -15,3 +15,5 @@ type PUT = Put '[JSON]
 type DELETE = Delete '[JSON]
 
 type PATCH = Patch '[JSON]
+
+type RootEndpoint = Get '[JSON] String
